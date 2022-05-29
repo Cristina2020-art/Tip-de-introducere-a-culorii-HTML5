@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tip de introducere a culorii HTML5</title>
+<script>
+    function getValue() {
+        var color = document.getElementById("mycolor").value;
+        alert(color);
+    }
+</script>
+</head>
+<body>
+    <form>
+        <label for="mycolor">Selecteaza o  culoare:</label>
+        <input type="color" value="#00ff00" id="mycolor">
+        <button type="button" onclick="getValue();">Obțineți valoare</button>
+    </form>
+</body>
+</html>   
